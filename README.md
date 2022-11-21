@@ -58,3 +58,17 @@ npm run start
 ## Author
 
 Surjith S M ( [@surjithctly](https://surjithctly.in/) )
+
+### Dev notes
+Home page needs, date, is virtual, CFP, CFP deadline 
+About
+Register -> link to conftool 
+
+Schedule 
+Policies
+contact ach@ach.org
+
+## idea random art
+fetch https://www.krea.ai/api/prompts?url=https%3A%2F%2Fgenerations.krea.ai%2Fimages%2F5a9173aa-6dbe-49f0-92a7-2bd479d0f72d.webp&aesthetic=0&aesthetic_score=9&aesthetic_weight=0.5&page=1&pageSize=200&isClipSearch=true
+reutrns ids, can then be used:
+https://generations.krea.ai/images/ff64283a-8631-4384-94b5-70ccff96f64f.webp

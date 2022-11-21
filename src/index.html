@@ -4,11 +4,17 @@ title: ACH2023
 path: home
 ---
 
-<div class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
+<div id="main" class="container mx-auto lg:h-screen flex flex-col justify-center items-center">
   <h1>
     <strong class="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
       ACH2023
     </strong>
   </h1>
+  
+  <img src="{{ gen_art.items | randomImage }}"/>
+
+
   {% include "./_includes/partials/content.html" %}
 </div>
+
+

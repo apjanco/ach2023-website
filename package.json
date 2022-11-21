@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.4.2",
+    "pagefind": "^0.10.0",
     "postcss": "^8.4.5"
   }
 }
